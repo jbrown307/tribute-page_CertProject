@@ -1,3 +1,9 @@
-.header {
-    border-style: 2px;
+img {
+    display: block;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
 }
