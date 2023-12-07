@@ -17,36 +17,37 @@ img {
 #title {
     text-align: center;
     background-color: rgba(236, 207, 207, 0.3);
-    
+
 }
 
 #img-div {
     margin-bottom: 2.5rem;
 }
-    #image {
-        max-width: 100%;
-        height: auto;
-        text-align: center;
-        border-radius: 6px;
-    }
-    #img-caption {
-        font-size: 1rem;
-        font-style:italic;
-        margin-top: 1.25rem;
-        text-align: center;
-    }
+
+#image {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#img-caption {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 1.25rem;
+    text-align: center;
+}
 
 #quote-text {
-        font-family: 'Cedarville Cursive', cursive;
-        font-size: 1.25rem;
-        text-align: center; 
-        width: 75%;
-        margin :auto;
-        background-color: rgba(236, 207, 207, 0.3);    
-    }
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 1.25rem;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(207, 236, 230, 0.3);
+}
 
 #tribute-link {
     font-size: 1rem;
-    margin-top:3rem;
+    margin-top: 3rem;
 }
-
