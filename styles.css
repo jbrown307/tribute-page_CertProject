@@ -1,3 +1,10 @@
+/* ---------- variables ---------- */
+:root {
+  --content-shader: rgba(236, 207, 207, 0.3); 
+  --content-shadow: 5px 5px 15px 5px #000000;
+}
+
+
 /* ---------- general ----------*/
 body {
     font-family: 'Hedvig Letters Serif', serif;
@@ -23,7 +30,8 @@ img {
 /* border: solid 3px red; */
 
     text-align: center;
-    background-color: rgba(236, 207, 207, 0.3);
+    background-color: var(--content-shader);
+    box-shadow: var(--content-shadow);
 }
 
 /* ---------- image component ---------- */
@@ -39,7 +47,7 @@ img {
 
         max-width: 100%;
         border-radius: 1rem;
-        box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: var(--content-shadow);
         height: auto;
         
     }
@@ -57,23 +65,24 @@ img {
 #tribute-info {
 /* border: solid 3px red; */
     
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
     padding: 1rem;
+    background-color: var(--content-shader);
+    box-shadow: var(--content-shadow);
 }
 
-#bio-text-heading {
-/* border: solid 3px blue; */
-    
-    text-align: center;
-}
+    #bio-text-heading {
+    /* border: solid 3px blue; */
+        
+        text-align: center;
+    }
 
 /* ---------- bio video component ---------- */
 #bio-video-container {
 /* border: solid 3px red; */
     
         margin: 0 auto;
-        margin-bottom: 2.5rem;
-        width: fit-content;
+        width: max-content;
 }
 
 /* ---------- quote component ---------- */
@@ -85,9 +94,10 @@ img {
     text-align: center;
     width: 75%;
     margin: 0 auto;
-    margin-bottom: 2.5rem;;
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
     background-color: rgba(207, 236, 230, 0.3);
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: var(--content-shadow);
 }
 
 /* ---------- more info component ---------- */
@@ -95,7 +105,7 @@ img {
 /* border: solid 3px red; */
 
     font-size: 1rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin: 0 auto;
     text-align: center;
 }
