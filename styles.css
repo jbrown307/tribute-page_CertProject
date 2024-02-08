@@ -1,3 +1,4 @@
+/* ---------- general ----------*/
 body {
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 1.25rem;
@@ -9,45 +10,96 @@ img {
     display: block;
 }
 
+/* ---------- main component ---------- */
 #main {
+/* border: solid 3px red; */
+    
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
 }
 
+/* ---------- title component ---------- */
 #title {
+/* border: solid 3px red; */
+
     text-align: center;
     background-color: rgba(236, 207, 207, 0.3);
-
 }
 
+/* ---------- image component ---------- */
 #img-div {
+/* border: solid 3px red; */
+
+    margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
-#image {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    border-radius: 6px;
+    #image {
+    /* border: solid 3px blue; */
+
+        max-width: 100%;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 15px 5px #000000;
+        height: auto;
+        
+    }
+
+    #img-caption {
+    /* border: solid 3px blue; */
+
+        font-size: 1rem;
+        font-style: italic;
+        margin-top: 1.25rem;
+        text-align: center;
+    }
+
+/* ---------- bio text component ---------- */
+#tribute-info {
+/* border: solid 3px red; */
+    
+    margin-bottom: 1.5rem;
+    padding: 1rem;
 }
 
-#img-caption {
-    font-size: 1rem;
-    font-style: italic;
-    margin-top: 1.25rem;
+#bio-text-heading {
+/* border: solid 3px blue; */
+    
     text-align: center;
 }
 
-#quote-text {
+/* ---------- bio video component ---------- */
+#bio-video-container {
+/* border: solid 3px red; */
+    
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+        width: fit-content;
+}
+
+/* ---------- quote component ---------- */
+#quote-container {
+ /* border: solid 3px red; */
+    
     font-family: 'Cedarville Cursive', cursive;
     font-size: 1.25rem;
     text-align: center;
     width: 75%;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;;
     background-color: rgba(207, 236, 230, 0.3);
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
-#tribute-link {
+/* ---------- more info component ---------- */
+#more-info-container {
+/* border: solid 3px red; */
+
     font-size: 1rem;
     margin-top: 3rem;
+    margin: 0 auto;
+    text-align: center;
 }
+
+
+
+

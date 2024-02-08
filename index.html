@@ -1,104 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-    <!--Use emmet: link:CSS as shortcut-->
-    <link rel="stylesheet"
-        href="styles.css">
-    <link rel="icon" 
-    href="favicon.png">
-    <link rel="preconnect"
-        href="https://fonts.googleapis.com">
-    <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-    <!--Hedvig Letters Serif-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+    <!--Hedvig Letters Serif font-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat&family=Roboto&display=swap"
-        rel="stylesheet">
-    <!--Cedarville Cursive-->
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
-        rel="stylesheet">
-
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat&family=Roboto&display=swap">
+    <!--Cedarville Cursive font-->
+    <link 
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap">
+       
     <title>Marie Curie Tribute Page</title>
 </head>
 
 <body>
     <main id="main">
-        <!--=================================================-->
-                <!--==========Title Section==========-->
-        <!--=================================================-->
+        <!---------- title component ---------->
         <div id="title">
             <h1>Marie Curie</h1>
             <p id="sub-title">The Only Person to Win a Nobel Prize in Two Sciences</p>
         </div>
-        <!--=================================================-->
-                <!--==========Image Section==========-->
-        <!--=================================================-->
+
+        <!---------- image component ---------->
         <div id="img-div">
             <figure>
                 <img id="image"
                     alt="Marie Curie holding up a becker to her face"
                     src="https://d33wubrfki0l68.cloudfront.net/be431f85ac79feccbf2dc12ef2a91986e9db54cb/6c2ee/images/marie-curie.jpg">
-                <figcaption id="img-caption">Marie Curie, Polish-born French physicist, famous for her work on
-                    radioactivity.</figcaption>
+                
+                <figcaption id="img-caption">Marie Curie, Polish-born French physicist, famous for 
+                    her work on radioactivity.
+                </figcaption>
             </figure>
         </div>
-        <!--=================================================-->
-                <!--==========Tribute Info Section==========-->
-        <!--=================================================-->
+
+        <!---------- bio text component ------------>
         <div id="tribute-info">
-            <h2>Here are some facts about her life and achievements:</h2>
-            <!--Use emmet: ul>li*5 as shortcut-->
+            <h2 id="bio-text-heading">Facts About Her Life and Achievements:</h2>
             <ul>
-                <li>Marie Curie, née Maria Sklodowska, was born in Warsaw on November 7, 1867, the daughter of a
-                    secondary-school teacher. She received a general education in local schools and some scientific
+                <li>Marie Curie, née Maria Sklodowska, was born in Warsaw on November 7, 1867, 
+                    the daughter of a secondary-school teacher. She received a general education in 
+                    local schools and some scientific
                     training from her father.</li>
                 <br>
-                <li>Her early researches, together with her husband, were often performed under difficult conditions,
-                    laboratory arrangements were poor and both had to undertake much teaching to earn a livelihood.</li>
+
+                <li>Her early researches, together with her husband, were often performed under 
+                    difficult conditions,laboratory arrangements were poor and both had to undertake 
+                    much teaching to earn a livelihood.</li>
                 <br>
-                <li>Mme. Curie, quiet, dignified and unassuming, was held in high esteem and admiration by scientists
-                    throughout the world.</li>
+
+                <li>Mme. Curie, quiet, dignified and unassuming, was held in high esteem and 
+                    admiration by scientists throughout the world.</li>
                 <br>
-                <!--&#39; is code for an apostrophe-->
-                <li>Curie&#39;s work is reflected in the numerous awards bestowed on her. She received many honorary
-                    science, medicine and law degrees and honorary memberships of learned societies throughout the
-                    world.
-                    Together with her husband, she was awarded half of the Nobel Prize for Physics in 1903.</li>
+
+                <li>Curie&#39;s work is reflected in the numerous awards bestowed on her. She 
+                    received many honorary science, medicine and law degrees and honorary 
+                    memberships of learned societies throughout the world. Together with her 
+                    husband, she was awarded half of the Nobel Prize for Physics in 1903.</li>
                 <br>
-                <li>In 1911 she received a second Nobel Prize, this time in Chemistry, in recognition of her work in
-                    radioactivity.</li>
+
+                <li>In 1911 she received a second Nobel Prize, this time in Chemistry, in 
+                    recognition of her work in radioactivity.</li>
                 <br>
             </ul>
         </div>
+
+        <!---------- bio-video component ---------->
+        <div id="bio-video-container">
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/w6JFRi0Qm_s?si=TZHuK4ULzEIehqiB" 
+            title="YouTube video player" 
+            frameborder="0"></iframe>
+        </div>
+        
         <footer>
-            <!--=================================================-->
-                    <!--==========Quote Text Section==========-->
-            <!--=================================================-->
-            <div id="quote-text">
-                <p>"Life is not easy for any of us. But what of that? We must have perseverance and above all confidence
-                    in ourselves.
-                    We must believe that we are gifted for something, and that this thing must be attained."</p>
+            <!---------- quote component ---------->
+            <div id="quote-container">
+                <p>"Life is not easy for any of us. But what of that? We must have perseverance and 
+                    above all confidence in ourselves.
+                    We must believe that we are gifted for something, and that this thing must be 
+                    attained."</p>
                 <p>- Marie Curie</p>
             </div>
-            <!--=================================================-->
-                    <!--==========Tribute Link Section==========-->
-            <!--=================================================-->
-            <div id="tribute-link">
-                <p><b>If you have time, you should read more about the genius of Marie Curie on her</b>
+
+            <!---------- more info component ---------->
+            <div id="more-info-container">
+                <p><b>All information is sourced from</b>
                     <a id="tribute-link"
                         target="_blank"
                         href="https://en.wikipedia.org/wiki/Marie_Curie">
-                        Wikipedia
-                        entry</a>.
+                        Marie Curie's wikipedia page
+                    </a>
                 </p>
             </div> 
         </footer>
     </main>
 </body>
-
 </html>
